@@ -1,0 +1,17 @@
+input:
+  #名字
+  name: mydir
+  #输入类型
+  type: dir
+  #日志分隔符
+  lineBreak: "\n"
+  #目录路径, 暂时不支持子目录
+  dir: /tmp
+  #文件通配符
+  filepatten: '*.log'
+  #记录读取文件位置的文件
+  pos: /tmp/dir.pos
+
+output:
+  name: console
+  type: stdout

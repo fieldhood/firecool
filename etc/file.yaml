@@ -1,0 +1,18 @@
+input:
+  #名字
+  name: myfile
+  #类型
+  type: file
+  #分隔符
+  lineBreak: "\n"
+  #文件位置
+  file: /tmp/test1.log
+  #记录文件读取位置的文件
+  pos: /tmp/file.pos
+  #过滤器
+  filter: myfilter
+  #解析器
+  parser: myparser
+output:
+  name: console
+  type: stdout

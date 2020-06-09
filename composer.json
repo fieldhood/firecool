@@ -1,0 +1,21 @@
+{
+    "name": "fieldhood/firecool",
+    "description": "A simple log collector.",
+    "require": {
+        "php": ">=7.1",
+        "ext-swoole": ">=4.3",
+        "ext-inotify": "*",
+        "ext-redis": "*",
+        "symfony/yaml": "v5.1.0",
+        "symfony/finder": "^4.1"
+    },
+    "require-dev": {
+        "swoft/swoole-ide-helper": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Firecool\\": "src/"
+        },
+        "files": []
+    }
+}
