@@ -284,6 +284,12 @@ output:
 ```
 
 #### 运行
+产生日志
+```shell
+bin/php test/makelog.php
+```
+
+收集
 ```shell script
 bin/php bin/fc.php etc/file.yaml
 ```
